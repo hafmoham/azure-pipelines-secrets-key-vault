@@ -11,7 +11,7 @@ The following script will create a Key Vault and Secret:
 ```bash
 # create the variables
 KEYVAULT_RG="rg-keyvault-devops"
-KEYVAULT_NAME="keyvault019"
+KEYVAULT_NAME="keyvault0019"
 SUBSCRIPTION_ID=$(az account show --query id -o tsv)
 
 # create new resource group
